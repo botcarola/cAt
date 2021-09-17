@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Framework</title>
+</head>
+<body>
+
+    <!-- EN NAV ESPECIFICAMOS PROPIEDADES COMO SOMBRA (has-shadow), POSITION, COLOR, ETC-->
+    <nav class="navbar is-spaced is-info is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="">
+
+           <span class="icon-text">  
+                             <!-- span que contiene al icon -->
+               <span class="icon is-large">
+                   <i class="fas fa-cat fas fa-2x"></i>
+               </span>
+               <!-- span que contiene a la palabra -->
+               <span class="title is-2 has-text-centered has-text-warning">cAt</span>
+
+            </span> 
+          </a>
+
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item">
+              Home
+            </a>
+      
+            <a class="navbar-item">
+              GITHUB
+            </a>
+      
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                Secciones
+              </a>
+      
+              <div class="navbar-dropdown">
+                <a class="navbar-item">
+                  Principal
+                </a>
+                <a class="navbar-item">
+                  Cards
+                </a>
+                <a class="navbar-item">
+                  Footer
+                </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item">
+                  Volver a inicio
+                </a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button is-warning">
+                  <strong>Sign up</strong>
+                </a>
+                <a class="button is-warning">
+                  Log in
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- HEADER -->
+
+      <section class="hero is-info">
+        <div class="hero-body">            
+            <div class="tile ">
+                <figure class="image">
+                 <img src="gatos/cathome.png">
+                </figure>
+               </div>           
+        </div>
+        
+      </section>
+
+      <section class="section has-text-centered">
+        <h2 class="title is-1 has-text-info">Adopta</h2>
+        <h2 class="subtitle mt-2">
+          Buscamos un <strong>hogar</strong>, te estamos esperando.
+        </h2>
+      </section>
+
+      <div class="columns is-centered mt-5">
+        <div class="column is-3 has-text-centered">
+            <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="https://www.hola.com/imagenes/estar-bien/20180925130054/consejos-para-cuidar-a-un-gatito-recien-nacido-cs/0-601-526/cuidardgatito-t.jpg?filter=w600" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                
+                    <div class="media-content">
+                      <p class="title is-4">Plumito</p>
+                    </div>
+                  </div>
+              
+                  <div class="content">
+                    <span>Macho de dos meses, muy juguetón. </span>
+                    <br>
+                    <br>
+                    <time datetime="2016-1-1">Publicado el: 11:09 PM - 1 Jan 2021</time>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="column  is-3 has-text-centered">
+            <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="https://cf.ltkcdn.net/gatos/images/std/236641-800x515r1-etapas-desarrollo-gatitos.jpg" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    
+                    <div class="media-content">
+                      <p class="title is-4">Dulce</p>
+                    </div>
+                  </div>
+              
+                  <div class="content">  
+                      <span>Hembra de 4 meses, ama las lanas.
+                      </span>                                  
+                    <br>
+                    <br>
+                    <time datetime="2016-1-1">Publicado el: 11:09 PM - 1 Jan 2021</time>
+                  </div>
+                </div>
+              </div>
+        </div>
+        
+        <div class="column is-3 has-text-centered">
+            <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/5971d8bb5bafe86c385a6625/gatito-atigrado_0.jpg" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4">Mielcita</p>
+                    </div>
+                  </div>              
+                  <div class="content">
+                    Estoy chikita. 
+                    <br>
+                    <br>
+                    <time datetime="2016-1-1">Publicado el: 11:09 PM - 1 Jan 2021</time>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <footer class="footer has-text-centered">
+
+        <button class="button icon-text is-primary">
+            <span class="icon">
+              <i class="fab fa-whatsapp"></i>
+            </span>
+            <span>Whatsapp</span>
+        </button>         
+          
+          <button class="button icon-text is-info">
+            <span class="icon">
+              <i class="far fa-envelope"></i>
+            </span>
+            <span>Email</span>
+          </button>  
+          
+          <button class="button icon-text is-danger">
+            <span class="icon">
+              <i class="fab fa-instagram"></i>
+            </span>
+            <span>Instagram</span>
+          </button>
+
+        <div class="content has-text-centered mt-5">
+          <p class="subtitle is-6">
+            <strong class="has-text-info">cAt</strong> por <a href="https://adaitw.org/" target="_blank">las chicas de ADA</a>
+          </p>
+        </div>
+      </footer>
+
+
+
+
+
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
